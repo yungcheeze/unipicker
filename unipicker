@@ -7,8 +7,8 @@ if [ -f /etc/unipickerrc ]; then
   source /etc/unipickerrc
 fi
 
-if [ -f "$HOME/.unipickerrc" ]; then
-  source "$HOME/.unipickerrc"
+if [ -f "$HOME/.config/unipicker/unipickerrc" ]; then
+  source "$HOME/.config/unipicker/unipickerrc"
 fi
 
 case "$OSTYPE" in
